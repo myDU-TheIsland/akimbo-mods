@@ -62,69 +62,69 @@ public class MyDuMod : IMod, ISubObserver
                     new ModActionDefinition
                     {
                         id = 201,
-                        label = "AkimboAdmin\\Constructs\\Get construct id",
+                        label = "Admin\\Constructs\\Get construct id",
                         context = ModActionContext.Construct,
                     },
                     new ModActionDefinition
                     {
                         id = 202,
-                        label = "AkimboAdmin\\Elements\\Get element id",
+                        label = "Admin\\Elements\\Get element id",
                         context = ModActionContext.Element,
                     },
                     new ModActionDefinition
                     {
                         id = 203,
-                        label = "AkimboAdmin\\Players\\Get player id",
+                        label = "Admin\\Players\\Get player id",
                         context = ModActionContext.Avatar,
                     },
                     new ModActionDefinition
                     {
                         id = 1,
-                        label = "AkimboAdmin\\Constructs\\disown construct",
+                        label = "Admin\\Constructs\\disown construct",
                         context = ModActionContext.Construct,
                     },
 
                     new ModActionDefinition
                     {
                         id = 2,
-                        label = "AkimboAdmin\\Elements\\repair element",
+                        label = "Admin\\Elements\\repair element",
                         context = ModActionContext.Element,
                     },
 
                     new ModActionDefinition
                     {
                         id = 1338,
-                        label = "AkimboAdmin\\Dispensers\\Bypass Admin Dispenser",
+                        label = "Admin\\Dispensers\\Bypass Admin Dispenser",
                         context = ModActionContext.Element,
                     },
                     new ModActionDefinition
                     {
                         id = 1339,
-                        label = "AkimboAdmin\\Dispensers\\Bypass Reset",
+                        label = "Admin\\Dispensers\\Bypass Reset",
                         context = ModActionContext.Element,
                     },
                     new ModActionDefinition
                     {
                         id = 1340,
-                        label = "AkimboAdmin\\Constructs\\take over construct",
+                        label = "Admin\\Constructs\\take over construct",
                         context = ModActionContext.Construct,
                     },
                     new ModActionDefinition
                     {
                         id = 1341,
-                        label = "AkimboAdmin\\Constructs\\repair construct",
+                        label = "Admin\\Constructs\\repair construct",
                         context = ModActionContext.Construct,
                     },
                     new ModActionDefinition
                     {
                         id = 1342,
-                        label = "AkimboAdmin\\Territory\\Claim Owned territory",
+                        label = "Admin\\Territory\\Claim Owned territory",
                         context = ModActionContext.Global,
                     },
                     new ModActionDefinition
                     {
                         id = 1343,
-                        label = "AkimboAdmin\\Territory\\Claim unOwned territory",
+                        label = "Admin\\Territory\\Claim unOwned territory",
                         context = ModActionContext.Global,
                     },
                 });
